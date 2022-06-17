@@ -153,7 +153,7 @@ void variable_replacement(char **line, int *exe_ret)
 					+ _strlen(&old_line[k]) + 1);
 			if (!line)
 				return;
-			newline[0] = '\0';
+			new_line[0] = '\0';
 			_strncat(new_line, old_line, j);
 
 			if (replacement)
